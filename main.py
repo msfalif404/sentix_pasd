@@ -131,7 +131,7 @@ if app_link:
     df_clean_review = pd.DataFrame(clean_review)
     #--------------------------End Of Cleaning The Dataset------------------------------------------
 
-    #Menampilkan 5 baris pertama setelah data dibersihkan
+    # Menampilkan 5 baris pertama setelah data dibersihkan
     # st.header("Dataframe Setelah Dibersihkan")
     # st.write(df_clean_review.head())
 
