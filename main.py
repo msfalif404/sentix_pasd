@@ -168,7 +168,6 @@ if app_link:
 
     st.text('Bad Text: "i hate this game so much, this game is so bad, so slow, very bad graphic, not responsible, very bad game"')
     st.text('Good Text: "This app is so good, so fast, very responsible, so good application, very good game"')
-    text_input_to_check = st.text_input(label ="Masukan beberapa kalimat....", disabled=True)
 
     st.header("Hasil")
     for i in range(2):
@@ -188,3 +187,5 @@ if app_link:
             st.write(f"Teks \"{text_to_check[i]}\" merupakan teks yang negatif")
         else:
             st.write(f"Teks \"{text_to_check[i]}\" merupakan teks yang positif")
+
+    text_input_to_check = st.text_input(label ="Masukan beberapa kalimat....", disabled=True)
